@@ -42,17 +42,16 @@ public class BungeeCordLauncher
             deadline.add( Calendar.WEEK_OF_YEAR, -4 );
             if ( buildDate.before( deadline.getTime() ) )
             {
-                System.err.println( "*** Warning, this build is outdated ***" );
-                System.err.println( "*** Please download a new build from http://ci.md-5.net/job/BungeeCord ***" );
-                System.err.println( "*** You will get NO support regarding this build ***" );
-                System.err.println( "*** Server will start in 10 seconds ***" );
-                Thread.sleep( TimeUnit.SECONDS.toMillis( 10 ) );
+                System.err.println( "*** Atentie, acest build este depasit ***" );
+                System.err.println( "*** Te rugam sa downloadezi cel mai noi build ***" );
+                System.err.println( "*** Serverul v-a porni in 4 secunde ***" );
+                Thread.sleep( TimeUnit.SECONDS.toMillis( 4 ) );
             }
         }
 
         BungeeCord bungee = new BungeeCord();
         ProxyServer.setInstance( bungee );
-        bungee.getLogger().info( "Enabled BungeeCord version " + bungee.getVersion() );
+        bungee.getLogger().info( "A pornit ForCord versiunea " + bungee.getVersion() );
         bungee.start();
 
         if ( !options.has( "noconsole" ) )
@@ -62,7 +61,7 @@ public class BungeeCordLauncher
             {
                 if ( !bungee.getPluginManager().dispatchCommand( ConsoleCommandSender.getInstance(), line ) )
                 {
-                    bungee.getConsole().sendMessage( new ComponentBuilder( "Command not found" ).color( ChatColor.RED ).create() );
+                    bungee.getConsole().sendMessage( new ComponentBuilder( "Comanda nu a fost gasita!" ).color( ChatColor.RED ).create() );
                 }
             }
         }
