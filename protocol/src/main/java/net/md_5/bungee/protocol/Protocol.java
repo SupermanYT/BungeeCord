@@ -297,7 +297,7 @@ public enum Protocol
             TO_SERVER.registerPacket(
                     LoginPayloadResponse.class,
                     map( ProtocolConstants.MINECRAFT_1_13, 0x00 ),
-                    map( ProtocolConstants.MINECRAFT_1_13_1 0x00 )
+                    map( ProtocolConstants.MINECRAFT_1_13_1, 0x00 )
             );
             TO_SERVER.registerPacket(
                     LoginRequest.class,
