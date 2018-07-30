@@ -105,7 +105,7 @@ public enum Protocol
                     map( ProtocolConstants.MINECRAFT_1_9, 0x2D ),
                     map( ProtocolConstants.MINECRAFT_1_12, 0x2D ),
                     map( ProtocolConstants.MINECRAFT_1_12_1, 0x2E ),
-                    map( ProtocolConstants.MINECRAFT_1_13, 0x30 )'
+                    map( ProtocolConstants.MINECRAFT_1_13, 0x30 ),
                     map( ProtocolConstants.MINECRAFT_1_13_1, 0x30 )
             );
             TO_CLIENT.registerPacket(
@@ -113,7 +113,7 @@ public enum Protocol
                     map( ProtocolConstants.MINECRAFT_1_8, 0x3A ),
                     map( ProtocolConstants.MINECRAFT_1_9, 0x0E ),
                     map( ProtocolConstants.MINECRAFT_1_12, 0x0E ),
-                    map( ProtocolConstants.MINECRAFT_1_13, 0x10 )'
+                    map( ProtocolConstants.MINECRAFT_1_13, 0x10 ),
                     map( ProtocolConstants.MINECRAFT_1_13_1, 0x10 )
             );
             TO_CLIENT.registerPacket(
@@ -122,7 +122,7 @@ public enum Protocol
                     map( ProtocolConstants.MINECRAFT_1_9, 0x3F ),
                     map( ProtocolConstants.MINECRAFT_1_12, 0x41 ),
                     map( ProtocolConstants.MINECRAFT_1_12_1, 0x42 ),
-                    map( ProtocolConstants.MINECRAFT_1_13, 0x45 )'
+                    map( ProtocolConstants.MINECRAFT_1_13, 0x45 ),
                     map( ProtocolConstants.MINECRAFT_1_13_1, 0x45 )
             );
             TO_CLIENT.registerPacket(
@@ -131,7 +131,7 @@ public enum Protocol
                     map( ProtocolConstants.MINECRAFT_1_9, 0x42 ),
                     map( ProtocolConstants.MINECRAFT_1_12, 0x44 ),
                     map( ProtocolConstants.MINECRAFT_1_12_1, 0x45 ),
-                    map( ProtocolConstants.MINECRAFT_1_13, 0x48 )'
+                    map( ProtocolConstants.MINECRAFT_1_13, 0x48 ),
                     map( ProtocolConstants.MINECRAFT_1_13_1, 0x48 )
             );
             TO_CLIENT.registerPacket(
@@ -140,7 +140,7 @@ public enum Protocol
                     map( ProtocolConstants.MINECRAFT_1_9, 0x38 ),
                     map( ProtocolConstants.MINECRAFT_1_12, 0x3A ),
                     map( ProtocolConstants.MINECRAFT_1_12_1, 0x3B ),
-                    map( ProtocolConstants.MINECRAFT_1_13, 0x3E )'
+                    map( ProtocolConstants.MINECRAFT_1_13, 0x3E ),
                     map( ProtocolConstants.MINECRAFT_1_13_1, 0x3E )
             );
             TO_CLIENT.registerPacket(
@@ -149,7 +149,7 @@ public enum Protocol
                     map( ProtocolConstants.MINECRAFT_1_9, 0x41 ),
                     map( ProtocolConstants.MINECRAFT_1_12, 0x43 ),
                     map( ProtocolConstants.MINECRAFT_1_12_1, 0x44 ),
-                    map( ProtocolConstants.MINECRAFT_1_13, 0x47 )'
+                    map( ProtocolConstants.MINECRAFT_1_13, 0x47 ),
                     map( ProtocolConstants.MINECRAFT_1_13_1, 0x47 )
             );
             TO_CLIENT.registerPacket(
